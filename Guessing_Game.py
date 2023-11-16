@@ -40,6 +40,7 @@ while True:
 
         elif int(number_guess) == random_num:
             print(f"Your answer in correct. Well done, {playername}!")
+            print(f"Your final attempts is {attempts} out of {limit_of_attempts}")
             exit()
             
         elif int(number_guess) < random_num:
@@ -54,6 +55,7 @@ while True:
 
         if attempts == limit_of_attempts:
             print(f"You lost the game, The Number was {random_num}")
+            print(f"Your final attempts is {attempts} out of {limit_of_attempts}")
             exit()
 
 
