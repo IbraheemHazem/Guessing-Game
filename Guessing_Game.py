@@ -4,7 +4,7 @@ print("------- Welcome to Your 'Guessing Number' game -------")
 print("------------------------------------------------------")
 
 random_num = random.randint(1,10)
-limit_of_attempts = 3
+limit_of_attempts = 5
 attempts = 0
 
 playername = input("What's your name Legend?\n")
